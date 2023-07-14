@@ -1,0 +1,13 @@
+mongodb:
+  auth:
+    rootUser: root
+    rootPassword: LAnu8UFoLLd9euBmN1EPE
+    # Default start in standalone mode.
+    usernames: ["controlplane"]
+    passwords: ["vfM4iHOcMGqWZgSuNvoa"]
+    databases: ["state"]
+  replicaSetName: aasdashboard
+  persistence:
+    size: 2Gi
+  service:
+    nameOverride: mongodb

@@ -1,0 +1,9 @@
+libreconnector:
+  id:
+    issued: yes
+    # if yes
+    keydetails:
+      privatekey:
+      publickey:
+    # if no
+    issuerdetails: 
